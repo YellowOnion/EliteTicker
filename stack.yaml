@@ -1,0 +1,13 @@
+flags: {}
+extra-package-dbs: []
+packages:
+- '.'
+- location:
+    git: https://github.com/peddie/pipes-zeromq4.git
+    commit: eda3f9c7785f6803d3a6b523a269f4fadce3170d
+  extra-dep: true
+extra-deps:
+- pipes-4.1.9
+- pipes-safe-2.2.4
+- pipes-zlib-0.4.4.1
+resolver: lts-7.21
